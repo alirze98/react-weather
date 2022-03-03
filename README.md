@@ -8,9 +8,9 @@ A simple weather app for web.i use fetch method for gather  data from [OpenWeath
 - works with any city in the world
 - different background for cold and warm temp.
 
-###Running
+
 **clone & install** 
-- clone this repo git clone [github.com/alirze98/react-weather.git]
+- clone this repo git clone [https://github.com/alirze98/react-weather.git](https://github.com/alirze98/react-weather.git)
 - cd react-weather
 - run npm install
 - run npm start
