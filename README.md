@@ -1,5 +1,5 @@
 # weather Application with Reactjs
-A simple weather app for web.i use fetch method for gather  data from [OpenWeatherMap.com],via their public API.
+A simple weather app for web.i use fetch method for gather  data from [OpenWeatherMap.com](OpenWeatherMap.com),via their public API.
 
 
 ## Features 
