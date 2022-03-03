@@ -102,3 +102,10 @@ font-style: oblique;
   font-style: italic;
 
 }
+
+.weather-box .wind{
+  color: #fff;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 5px;
+} 
