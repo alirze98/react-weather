@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './index.css';
+import {FaBurn,FaWind} from 'react-icons/fa';
 
 const api = {
   key:"bcfa29858f6573b7d807f073ded53547",
@@ -55,10 +56,11 @@ function App() {
       </div>
 
       <div className='weather-box'>
-        <div className='temp'>{Math.round(weather.main.temp)}°C </div>
+        <div className='temp'>{Math.round(weather.main.temp)}°c </div>
         <div className='feel'>feels like  {Math.round(weather.main.feels_like)}°C</div>
         <div className='weather'>{weather.weather[0].main}</div>
-        <div className='humidity'>humidity index {weather.main.humidity}</div>
+        <div className='humidity'> <FaBurn />  humidity  {weather.main.humidity}</div>
+        <div className='wind'> <FaWind /> wind speed {weather.wind.speed}</div>
 
       </div>
       </div>
